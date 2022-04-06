@@ -1,0 +1,8 @@
+[
+    {
+        "name":"YouTube",
+        "url":"https://www.youtube.com",
+        "scriptName":"youtube",
+        "selectors": {}
+    }
+]
