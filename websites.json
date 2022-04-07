@@ -3,6 +3,11 @@
         "name":"YouTube",
         "url":"https://www.youtube.com",
         "scriptName":"youtube",
-        "selectors": {}
+        "selectors": {
+            "menu":"#guide-icon",
+            "suscripciones":"#endpoint > tp-yt-paper-item > yt-formatted-string",
+            "listVideos":"#content > ytd-rich-grid-media #dismissible #details"
+
+        }
     }
 ]
