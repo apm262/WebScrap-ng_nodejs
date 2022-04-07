@@ -41,10 +41,13 @@ module.exports = async (page, website) => {
 
     // console.log(videoFinal)
 
-    fs.writevSync(
+    fs.writeFile(
         path.join(__dirname,`${website.scriptName}.json`) ,
         JSON.stringify(videoFinal),
-        'utf8'
+        (err) => {
+            if (err) throw err;
+            console.log('The file has been saved!');
+        }
     );
     
 };
